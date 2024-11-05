@@ -65,3 +65,11 @@ section {
     transition:  box-shadow 0.5s ease-in-out;
 
 }
+
+/* css logo */
+.logo {
+    position: absolute;
+    margin-top: -5em;
+}
+
+/* css logo end */
