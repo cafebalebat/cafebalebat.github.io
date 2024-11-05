@@ -56,3 +56,11 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* css logo */
+.logo {
+    position: absolute;
+    margin-top: -5em;
+}
+
+/* css logo end */
