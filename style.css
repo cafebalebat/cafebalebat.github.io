@@ -63,7 +63,6 @@ section {
     cursor: pointer;
     box-shadow: 0 0 8px #25D366;
     transition:  box-shadow 0.5s ease-in-out;
-    color: white;
 
 }
 
