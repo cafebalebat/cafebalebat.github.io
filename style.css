@@ -66,10 +66,9 @@ section {
 
 }
 
-/* css logo */
 .logo {
-    position: absolute;
-    margin-top: -5em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
 }
-
-/* css logo end */
