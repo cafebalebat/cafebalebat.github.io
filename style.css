@@ -72,3 +72,27 @@ section {
     position: relative;
     height: auto;
 }
+
+.btn {
+    background-color: #ffffff; /* Dark background similar to the image */
+    color: #2ecc71; /* Green color for the text */
+    border: 2px solid #2ecc71; /* Green border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-block; /* Inline block for alignment */
+    text-align: center; /* Center text */
+}
+
+.btn:hover {
+    background-color: #2ecc71; /* Green background on hover */
+    color: #ffffff; /* White text color on hover */
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: #25D366;
+}
