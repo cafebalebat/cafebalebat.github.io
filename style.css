@@ -17,6 +17,20 @@ nav ul {
     padding: 0;
 }
 
+nav ul :hover{
+    background: #35424a;
+    color: #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 1s, transform 1s;
+    text-align: center;
+
+}
+
+
 nav ul li {
     display: inline;
     margin: 0 15px;
