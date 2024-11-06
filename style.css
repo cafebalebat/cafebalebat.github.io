@@ -21,3 +21,30 @@
   .footer {
     background-image: url('/img/parallax3.png');
   }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo img {
+    color: white;
+    height: 8rem;
+}
+
+.navigation a {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px;
+    padding: 6px 15px;
+}
