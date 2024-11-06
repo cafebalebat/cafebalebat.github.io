@@ -1,98 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-body {
-    font-family: "Poppins", sans-serif;
+*, html, body{
     margin: 0;
     padding: 0;
-    background-color: #b0b0b0;
-}
-
-header {
-    background: #a54747;
-    color: #ece9e9;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul :hover{
-    background: #373737;
-    color: #000000;
-    padding: 10px;
     box-sizing: border-box;
-    border-radius: 5px;
-    width: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background 1s, transform 1s;
-    text-align: center;
-}
-
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-    background: #ffffff;
-    border-radius: 5px;
-}
-
-.whatsapp-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #25D366;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.whatsapp-button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 8px #25D366;
-    transition:  box-shadow 0.5s ease-in-out;
-
-}
-
-.logo {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: auto;
-}
-
-.btn {
-    background-color: #ffffff; /* Dark background similar to the image */
-    color: #2ecc71; /* Green color for the text */
-    border: 2px solid #2ecc71; /* Green border */
-    padding: 10px 20px; /* Padding for the button */
-    border-radius: 5px; /* Rounded corners */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    display: inline-block; /* Inline block for alignment */
-    text-align: center; /* Center text */
-}
-
-.btn:hover {
-    background-color: #2ecc71; /* Green background on hover */
-    color: #ffffff; /* White text color on hover */
-}
-
-
-.btn a {
-    text-decoration: none;
-    color: #25D366;
-}
+  }
+  .parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+  } 
+  .intro {
+    background-image: url('/img/parallax1.png'); 
+  }
+  .content {
+    background-image: url('/img/parallax2.png');
+  }
+  .footer {
+    background-image: url('/img/parallax3.png');
+  }
