@@ -9,20 +9,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
     <div class="logo">
-      <img src="img/logo.png" alt="Logo">
+      <img src="logo.png" alt="Logo">
     </div>
-    <nav class="navigation">
-      <a href="#">Home <span></span></a>
-      <a href="#">About <span></span></a>
-      <a href="#">Service <span></span></a>
-      <a href="#">Order <span></span></a>
+    <nav>
+      <ul>
+        <li><a href="#home" class="menu-item active">Home</a></li>
+        <li><a href="#about" class="menu-item">About</a></li>
+        <li><a href="#service" class="menu-item">Service</a></li>
+        <li><a href="#order" class="menu-item">Order</a></li>
+      </ul>
     </nav>
   </header>
-    <div class="parallax intro"></div>  
-    <div class="parallax content"></div>  
-    <div class="parallax footer"></div>
+
+  <section id="home" class="parallax home">
+    <h1>Welcome to Our Parallax Website</h1>
+  </section>
+
+  <section id="about" class="content">
+    <h2>About Us</h2>
+    <p>Here is some information about us...</p>
+  </section>
+
+  <section id="service" class="content">
+    <h2>Our Services</h2>
+    <p>Details about our services...</p>
+  </section>
+
+  <section id="order" class="content">
+    <h2>Order Now</h2>
+    <p>Place your orders here...</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Parallax Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
