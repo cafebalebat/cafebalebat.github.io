@@ -113,6 +113,11 @@ nav ul li a.active {
   text-align: center;
 }
 
+.card-body {
+  width: 400px;
+  height: 400px;
+}
+
 .footer {
   height: 10vh;
   padding: 20px;
