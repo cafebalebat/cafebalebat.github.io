@@ -92,25 +92,26 @@ nav ul li a.active {
 .about {
   height: 100vh;
   padding: 100px 50px;
-  background-image: url('img/parallax1.png');
-  color: white;
-  text-align: center;
-}
-.service {
-  height: 100vh;
-  padding: 100px 50px;
-  background-image: url('img/parallax1.png');
-  color: white;
-  text-align: center;
-}
-.order {
-  height: 100vh;
-  padding: 100px 50px;
-  background-image: url('img/parallax1.png');
+  background-image: url('img/parallax2.jpg');
   color: white;
   text-align: center;
 }
 
+.service {
+  height: 100vh;
+  padding: 100px 50px;
+  background-image: url('img/parallax3.jpg');
+  color: white;
+  text-align: center;
+}
+
+.order {
+  height: 100vh;
+  padding: 100px 50px;
+  background-image: url('img/parallax4.jpg');
+  color: white;
+  text-align: center;
+}
 
 .footer {
   height: 10vh;
