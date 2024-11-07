@@ -79,7 +79,7 @@ nav ul li a.active {
 
 .home {
   height: 100vh;
-  background-image: url('parallax1.png');
+  background-image: url('img/parallax1.png');
   display: flex;
   justify-content: center;
   align-items: center;
