@@ -29,15 +29,15 @@ header.scrolled {
   padding: 10px 40px; /* Mengecilkan padding saat scroll */
   transform: translateY(-10px); /* Menggeser header ke atas */
   background: rgba(255, 255, 255, 0.8); /* Mengubah background agar lebih solid saat scroll */
-  }
+}
 
-  header.hide {
-      transform: translateY(-100%); /* Menggeser header keluar layar */
-      opacity: 0; /* Menyembunyikan header dengan mengurangi opacity */
-    }
+header.hide {
+  transform: translateY(-100%); /* Menggeser header keluar layar */
+  opacity: 0; /* Menyembunyikan header dengan mengurangi opacity */
+}
 
 .logo img {
-  width: 50px;
+  width: 7rem;
   transition: all 0.3s ease;
 }
 
@@ -79,7 +79,7 @@ nav ul li a.active {
 
 .home {
   height: 100vh;
-  background-image: url('img/parallax1.png');
+  background-image: url('img/parallax1.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
