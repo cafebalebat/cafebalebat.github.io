@@ -85,6 +85,8 @@ nav ul li a.active {
   align-items: center;
   color: white;
   text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 4px 5px gray;
 }
 
 .about {
