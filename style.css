@@ -160,6 +160,10 @@ nav ul li a.active {
   cursor: pointer; /* Show hand cursor on hover */
 }
 
+.btn a{
+  text-decoration: none;
+}
+
 .btn:hover {
   background-color: #29a329; /* Green background on hover */
   color: #fff; /* White text on hover */
