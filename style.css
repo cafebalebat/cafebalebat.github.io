@@ -97,6 +97,11 @@ nav ul li a.active {
   text-align: center;
 }
 
+.about .p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
 .service {
   height: 100vh;
   padding: 100px 50px;
