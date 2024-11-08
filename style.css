@@ -20,7 +20,7 @@ header {
   align-items: center;
   padding: 20px 50px;
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   z-index: 1000;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -97,12 +97,17 @@ nav ul li a.active {
   text-align: center;
 }
 
-.service {
-  height: 100vh;
-  padding: 100px 50px;
-  background-image: url('img/parallax3.jpg');
-  color: white;
-  text-align: center;
+.about h2 {
+  line-height: 1.5;
+  font-size: 50px;
+  text-shadow: 2px 4px 5px gray;
+}
+
+.about p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+  text-shadow: 2px 4px 5px gray;
 }
 
 .order {
@@ -113,9 +118,25 @@ nav ul li a.active {
   text-align: center;
 }
 
+.order h2 {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 50px;
+  text-shadow: 2px 4px 5px gray;
+}
+
+.order p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 30px;
+  text-shadow: 2px 4px 5px gray;
+}
+
 .card-body {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
