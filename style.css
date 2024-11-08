@@ -97,6 +97,11 @@ nav ul li a.active {
   text-align: center;
 }
 
+.parallax .about {
+  margin-bottom: 20px;
+  
+}
+
 .service {
   height: 100vh;
   padding: 100px 50px;
