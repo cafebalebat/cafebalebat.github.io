@@ -97,17 +97,17 @@ nav ul li a.active {
   text-align: center;
 }
 
-.parallax .about {
-  margin-bottom: 20px;
+.about h2 {
   line-height: 1.5;
+  font-size: 50px;
+  text-shadow: 2px 4px 5px gray;
 }
 
-.service {
-  height: 100vh;
-  padding: 100px 50px;
-  background-image: url('img/parallax3.jpg');
-  color: white;
-  text-align: center;
+.about p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+  text-shadow: 2px 4px 5px gray;
 }
 
 .order {
@@ -116,6 +116,20 @@ nav ul li a.active {
   background-image: url('img/parallax4.jpg');
   color: white;
   text-align: center;
+}
+
+.order h2 {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 50px;
+  text-shadow: 2px 4px 5px gray;
+}
+
+.order p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 30px;
+  text-shadow: 2px 4px 5px gray;
 }
 
 .card-body {
