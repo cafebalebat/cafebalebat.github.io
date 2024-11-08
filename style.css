@@ -133,8 +133,10 @@ nav ul li a.active {
 }
 
 .card-body {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
