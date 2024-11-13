@@ -110,28 +110,6 @@ nav ul li a.active {
   text-shadow: 2px 4px 5px gray;
 }
 
-.order {
-  height: 100vh;
-  padding: 100px 50px;
-  background-image: url('img/parallax4.jpg');
-  color: white;
-  text-align: center;
-}
-
-.order h2 {
-  margin-bottom: 20px;
-  line-height: 1.5;
-  font-size: 50px;
-  text-shadow: 2px 4px 5px gray;
-}
-
-.order p {
-  margin-bottom: 20px;
-  line-height: 1.5;
-  font-size: 30px;
-  text-shadow: 2px 4px 5px gray;
-}
-
 .card-body {
   width: 300px;
   height: 300px;
