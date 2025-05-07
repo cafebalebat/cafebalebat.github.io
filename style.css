@@ -147,18 +147,131 @@ nav ul li a.active {
   color: #fff; /* White text on hover */
 }
 
+/* Gaya dasar tombol burger */
+.navbar-toggler {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 1100;
+}
+
+/* Garis-garis burger */
+.navbar-toggler span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler.active .s-1 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 10px;
+}
+
+.navbar-toggler.active .s-2 {
+  opacity: 0;
+}
+
+.navbar-toggler.active .s-3 {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -8px;
+}
+
+/* Responsive nav */
+.nav-menu {
+  display: flex; 
+  flex-direction: row;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu ul li {
+  margin-left: 20px;
+}
+
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-menu ul li {
+  margin: 10px 0;
+}
+
 @media (max-width: 768px) {
-  header {
+  .nav-menu {
+    display: none;
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 999;
   }
 
-  nav ul {
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu ul {
     flex-direction: column;
+    width: 100%;
+    text-align: center;
   }
 
-  nav ul li {
+  .nav-menu ul li {
     margin: 10px 0;
+  }
+
+  .nav-menu ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar-toggler {
+    display: flex;
+  }
+}
+
+/* TAMPILAN DESKTOP */
+@media (min-width: 769px) {
+  .nav-menu {
+    display: block !important;
+    position: static;
+    background: transparent;
+  }
+
+  .nav-menu ul {
+    flex-direction: row;
+  }
+
+  .nav-menu ul li {
+    margin-left: 20px;
+  }
+
+  .navbar-toggler {
+    display: none;
   }
 }

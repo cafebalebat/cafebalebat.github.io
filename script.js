@@ -20,3 +20,9 @@ document.querySelectorAll('.menu-item').forEach(item => {
     
     lastScrollY = window.scrollY; // Update posisi scroll terakhir
   });
+
+  // untuk burrger menu
+  function toggleMenu(btn) {
+    btn.classList.toggle("active");
+    document.querySelector(".nav-menu").classList.toggle("active");
+  }
