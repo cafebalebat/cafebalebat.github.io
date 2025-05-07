@@ -1,28 +1,22 @@
 document.querySelectorAll('.menu-item').forEach(item => {
-    item.addEventListener('click', function() {
-      document.querySelectorAll('.menu-item').forEach(menu => menu.classList.remove('active'));
-      this.classList.add('active');
-    });
+  item.addEventListener('click', function() {
+    document.querySelectorAll('.menu-item').forEach(menu => menu.classList.remove('active'));
+    this.classList.add('active');
   });
-  let lastScrollY = window.scrollY;
+});
+let lastScrollY = window.scrollY;
 
-  window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-  
-    // Mengecek arah scroll
-    if (window.scrollY > lastScrollY) {
-      // Jika scroll ke bawah, sembunyikan header
-      header.classList.add('hide');
-    } else {
-      // Jika scroll ke atas, tampilkan header
-      header.classList.remove('hide');
-    }
-    
-    lastScrollY = window.scrollY; // Update posisi scroll terakhir
-  });
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('header');
 
-  // untuk burrger menu
-  function toggleMenu(btn) {
-    btn.classList.toggle("active");
-    document.querySelector(".nav-menu").classList.toggle("active");
+  // Mengecek arah scroll
+  if (window.scrollY > lastScrollY) {
+    // Jika scroll ke bawah, sembunyikan header
+    header.classList.add('hide');
+  } else {
+    // Jika scroll ke atas, tampilkan header
+    header.classList.remove('hide');
   }
+  
+  lastScrollY = window.scrollY; // Update posisi scroll terakhir
+});
