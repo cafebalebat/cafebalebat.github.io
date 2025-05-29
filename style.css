@@ -79,7 +79,7 @@ nav ul li a.active {
 
 .home {
   height: 100vh;
-  background-image: url('img/parallax1.jpg');
+  background-image: url('img/bg1.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +92,7 @@ nav ul li a.active {
 .about {
   height: 100vh;
   padding: 100px 50px;
-  background-image: url('img/parallax2.jpg');
+  background-image: url('img/bg3.jpg');
   color: white;
   text-align: center;
 }
@@ -107,7 +107,7 @@ nav ul li a.active {
   margin-bottom: 20px;
   line-height: 1.5;
   font-size: 20px;
-  text-shadow: 2px 4px 5px gray;
+  text-shadow: 2px 4px 5px rgb(5, 5, 5);
 }
 
 .card-body {
